@@ -21,4 +21,4 @@ while z>=0:
     z=int(input("Escribe otro número: "))
     if z>=0:
         contador+=z
-print(contador)
+print("La suma de los números positicos introducidos es: ", contador)
