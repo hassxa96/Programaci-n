@@ -11,17 +11,19 @@ Sustituir la palabra: Carmen
 por la palabra: David
 La lista es ahora: ['Alberto', 'David', 'Benito', 'David']
 """
-lista=[]
-z=int(input("Escribe cuantas palabras tiene la lista: "))
-for i in range (z):
-    print("Dígame una palabra: ", i+1)
-    palabra=input()
-    lista.append(palabra)
-print("La lista creada es: ", lista)
 
-palabra1=input("La primera palabra: ")
-palabra2=input("La segunda palabra: ")
+lista=[]
+a=int(input("Dígame cuántas palabras tiene la lista: "))
+
+for i in range(a):
+    x=input("Escribe un nombre: ")
+    lista.append(x)
+print(lista)
+
+y=input("Escribe un nombre: ")
+z=input("Escribe otro nombre: ")
+
 for i in range(len(lista)):
-    if lista[i]==palabra1:
-        lista[i]=palabra2
+    if lista[i]==y:
+        lista[i]=z
 print(lista)
